@@ -1,0 +1,21 @@
+{
+  "name": "database-connection",
+  "version": "1.0.0",
+  "description": "Trying MySql connection",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "build":{
+    "appId": "cdesy",
+    "win":{
+      "target": "NSIS"
+    }
+  },
+  "author": "Chriss-Dessy",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}
